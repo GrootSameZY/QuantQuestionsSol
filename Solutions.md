@@ -19,7 +19,7 @@ The p.d.f below shows left-skewed and left heavy-tailed, which means the greater
 
 
 ##### Repo projects I have done previously
-See 
+See https://github.com/GrootSameZY/Previous-Projects.git 
 ##### Expected start date of work
 I can start it now but I can only work as an intern (My graduating time is in Jan 2022). If I am not qualified as an analyst, I hope that you can take my application being a quant intern into consideration. I am a student pass holder and only unavailable on Saturdays.
 ##### Interviews with other companies that are lining up, and the stages (or job offers)
