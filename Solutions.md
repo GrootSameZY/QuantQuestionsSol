@@ -56,11 +56,12 @@ We aim to maximize the weighted daily return,
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\text{Maximize}&space;\sum_{i=1}^{7}w_i\cdot&space;r_i,\\&space;\text{subject&space;to}&space;\sum_{i=1}^{7}w_i=1." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\text{Maximize}&space;\sum_{i=1}^{7}w_i\cdot&space;r_i,\\&space;\text{subject&space;to}&space;\sum_{i=1}^{7}w_i=1." title="\text{Maximize} \sum_{i=1}^{7}w_i\cdot r_i,\\ \text{subject to} \sum_{i=1}^{7}w_i=1." /></a>
 
-#### In the first month, keep the current position.
-#### Use the daily return of the first month to find the optimal weights. Then hold the updated portfolio to next month.
+See ```Q4.r```. Use ```lpSolve```. The result seems not correct since no negative weights appear, and the returns of each day seem not optimal.
 
 ## Q5
+
 ## Q6
+
 
 ##### Previous projects I have done
 See https://github.com/GrootSameZY/Previous-Projects.git 
@@ -69,4 +70,4 @@ I can start it now but I can only work as an intern (My graduating time is in Ja
 ##### Interviews with other companies that are lining up, and the stages (or job offers)
 There are currently no upcoming interviews.
 ##### Availabilities for the upcoming interviews with Treehouse
-I am available anyday except Saturday.
+I am available any time except Saturday.
