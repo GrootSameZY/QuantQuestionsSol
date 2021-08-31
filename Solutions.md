@@ -61,13 +61,4 @@ See ```Q4.r```. Use ```lpSolve```. The result seems not correct since no negativ
 ## Q5
 
 ## Q6
-
-
-##### Previous projects I have done
-See https://github.com/GrootSameZY/Previous-Projects.git 
-##### Expected start date of work
-I can start it now but I can only work as an intern (My graduating time is in Jan 2022). If I am not qualified as an analyst, I hope that you can also take my application to be a quant intern into consideration. I am a student pass holder and only unavailable on Saturdays.
-##### Interviews with other companies that are lining up, and the stages (or job offers)
-There are currently no upcoming interviews.
-##### Availabilities for the upcoming interviews with Treehouse
-I am available any time except Saturday.
+I am not clear about how to extract the different format of date. I just have some ideas about splitting the text into categories which was done previously. Part of the code is shown in ```mainQ6.cpp```.
