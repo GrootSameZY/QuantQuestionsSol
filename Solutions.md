@@ -30,7 +30,7 @@ Used historical simulation, （+: loss, -: return）
 | Historical Simulation 	| 0.01641343 	| 0.02300513 	|
 
 ### (b)
-Use ```density``` to find the mean ```mean = 0.00057```and standard deviation ```std = 0.00950``` of the portfolio return.
+Use ```density``` to find the mean ```mean = -0.00057 (return)```and standard deviation ```std = 0.00950``` of the portfolio return.
 The p.d.f below shows left-skewed and left heavy-tailed, which means the greater possibility of the occurence of huge loss.
 ![image](https://user-images.githubusercontent.com/89716697/131369628-41bf533a-82a9-41e2-b73d-030e44c6a470.png)
 
@@ -56,7 +56,8 @@ We aim to maximize the weighted daily return,
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\text{Maximize}&space;\sum_{i=1}^{7}w_i\cdot&space;r_i,\\&space;\text{subject&space;to}&space;\sum_{i=1}^{7}w_i=1." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\text{Maximize}&space;\sum_{i=1}^{7}w_i\cdot&space;r_i,\\&space;\text{subject&space;to}&space;\sum_{i=1}^{7}w_i=1." title="\text{Maximize} \sum_{i=1}^{7}w_i\cdot r_i,\\ \text{subject to} \sum_{i=1}^{7}w_i=1." /></a>
 
-Keep the initial position given in the question, use the first 
+#### In the first month, keep the current position.
+#### Use the daily return of the first month to find the optimal weights. Then hold the updated portfolio to next month.
 
 ## Q5
 ## Q6
@@ -64,8 +65,8 @@ Keep the initial position given in the question, use the first
 ##### Previous projects I have done
 See https://github.com/GrootSameZY/Previous-Projects.git 
 ##### Expected start date of work
-I can start it now but I can only work as an intern (My graduating time is in Jan 2022). If I am not qualified as an analyst, I hope that you can take my application being a quant intern into consideration. I am a student pass holder and only unavailable on Saturdays.
+I can start it now but I can only work as an intern (My graduating time is in Jan 2022). If I am not qualified as an analyst, I hope that you can also take my application to be a quant intern into consideration. I am a student pass holder and only unavailable on Saturdays.
 ##### Interviews with other companies that are lining up, and the stages (or job offers)
 There are currently no upcoming interviews.
 ##### Availabilities for the upcoming interviews with Treehouse
-I am available any day except Saturday.
+I am available anyday except Saturday.
