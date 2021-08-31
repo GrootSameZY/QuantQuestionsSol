@@ -4,21 +4,43 @@
 ## Q3
 See ```mainQ3.cpp```.
 
+![image](https://user-images.githubusercontent.com/89716697/131442265-848eed66-2a67-4b16-8aad-53a85be8a85a.png)
+
 ## Q4
-The daily adjusted prices of the 7 stocks from 01/01/2016 to 12/31/2016 were accessed from Yahoo Finance. Calculated the log daily returns of each stock and the weighted return of the portfolio.
+The daily adjusted prices of the 7 stocks from 01/01/2016 to 12/31/2016 are accessed from Yahoo Finance. Calculate the log daily returns of each stock and the weighted return of the portfolio.
 ### (a)
-Used historical simulation,
+Used historical simulation, （+: loss, -: return）
 |  	| 95% VaR 	| 95% CVaR 	|
 |---	|---	|---	|
-| Historical Simulation 	| -0.01641343 	| -0.02300513 	|
+| Historical Simulation 	| 0.01641343 	| 0.02300513 	|
 
 ### (b)
-Used ```density``` to find the mean ```mean = 0.00057```and standard deviation ```std = 0.00950``` of the portfolio return.
+Use ```density``` to find the mean ```mean = 0.00057```and standard deviation ```std = 0.00950``` of the portfolio return.
 The p.d.f below shows left-skewed and left heavy-tailed, which means the greater possibility of the occurence of huge loss.
 ![image](https://user-images.githubusercontent.com/89716697/131369628-41bf533a-82a9-41e2-b73d-030e44c6a470.png)
 
+The correlation matrix is shown below.
+| Corr 	| AAPL 	| IBM 	| GOOG 	| BP 	| XOM 	| COST 	| GS 	|
+|---	|---	|---	|---	|---	|---	|---	|---	|
+| AAPL 	| 1.0000000 	|  	|  	|  	|  	|  	|  	|
+| IBM 	| 0.3063460  	| 1.0000000 	|  	|  	|  	|  	|  	|
+| GOOG 	| 0.4727447  	| 0.3401606  	| 1.0000000 	|  	|  	|  	|  	|
+| BP 	| 0.2907049  	| 0.4129107  	| 0.2070709  	| 1.0000000 	|  	|  	|  	|
+| XOM 	| 0.2716068  	| 0.4342248  	| 0.1924154  	| 0.6814065  	| 1.0000000 	|  	|  	|
+| COST 	| 0.3164456 	| 0.1754480 	| 0.3552544 	| 0.1309359 	| 0.1622474 	| 1.0000000 	|  	|
+| GS 	| 0.3620238 	| 0.4276626 	| 0.3095373 	| 0.5398358 	| 0.4167982 	| 0.2491354 	| 1.0000000 	|
+p.s: I don't have too much idea to solve it by its correlation matrix, so I just leave the correlation matrix here.
 
-##### Repo projects I have done previously
+Use t distribution (df = 251-2-1=248,<a href="https://www.codecogs.com/eqnedit.php?latex=\lambda&space;=&space;\frac{std}{\sqrt{\frac{\lambda}{\lambda-2}}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\lambda&space;=&space;\frac{std}{\sqrt{\frac{\lambda}{\lambda-2}}}" title="\lambda = \frac{std}{\sqrt{\frac{\lambda}{\lambda-2}}}" /></a>), （+: loss, -: return）
+|  	| 95% VaR 	| 95% CVaR 	|
+|---	|---	|---	|
+|t distribution	| 0.01504312 	| 0.02019171 	|
+
+### (c)
+To maximize the weighted daily return,
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\text{Maximize}&space;\sum_{i=1}^{7}w_i\cdot&space;r_i,\\&space;\text{subject&space;to}&space;\sum_{i=1}^{7}w_i=1." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\text{Maximize}&space;\sum_{i=1}^{7}w_i\cdot&space;r_i,\\&space;\text{subject&space;to}&space;\sum_{i=1}^{7}w_i=1." title="\text{Maximize} \sum_{i=1}^{7}w_i\cdot r_i,\\ \text{subject to} \sum_{i=1}^{7}w_i=1." /></a>
+##### Previous projects I have done
 See https://github.com/GrootSameZY/Previous-Projects.git 
 ##### Expected start date of work
 I can start it now but I can only work as an intern (My graduating time is in Jan 2022). If I am not qualified as an analyst, I hope that you can take my application being a quant intern into consideration. I am a student pass holder and only unavailable on Saturdays.
