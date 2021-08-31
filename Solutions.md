@@ -1,5 +1,20 @@
 # QuantQuestionsSolutions
 ## Q1
+### (a)
+Dan's salary is greater than his manager Sally.
+Sally's salary is greater than her manager Jane.
+Joe's salary is greater than her manager Phil.
+### (b)
+If there is no subsidy drawn to their managers, the average salary should be 
+John:300
+Mike:200
+Joe:600
+Dan:600
+Equal-weighted Avg = 425;
+Weighted Avg = 500.
+
+## Q2 
+I think it depends on the type of the variable. For instance, the ```const``` variable in ```C++``` must be defined and initialized. Otherwise, there is the compilation error. Most undefined variables can be detected by the compiler. For those cannot be detected, e.g. the incomplete initialization of ```pointer``` and ```int```, can be detected by checking their address and values (i.e. whether the pointer points to a void address, whether the int value is random and extremely positive/negative, or whether there is a memory leak at the runtime).
 
 ## Q3
 See ```mainQ3.cpp```.
@@ -37,9 +52,15 @@ Use t distribution (df = 251-2-1=248,<a href="https://www.codecogs.com/eqnedit.p
 |t distribution	| 0.01504312 	| 0.02019171 	|
 
 ### (c)
-To maximize the weighted daily return,
+We aim to maximize the weighted daily return,
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\text{Maximize}&space;\sum_{i=1}^{7}w_i\cdot&space;r_i,\\&space;\text{subject&space;to}&space;\sum_{i=1}^{7}w_i=1." target="_blank"><img src="https://latex.codecogs.com/gif.latex?\text{Maximize}&space;\sum_{i=1}^{7}w_i\cdot&space;r_i,\\&space;\text{subject&space;to}&space;\sum_{i=1}^{7}w_i=1." title="\text{Maximize} \sum_{i=1}^{7}w_i\cdot r_i,\\ \text{subject to} \sum_{i=1}^{7}w_i=1." /></a>
+
+Keep the initial position given in the question, use the first 
+
+## Q5
+## Q6
+
 ##### Previous projects I have done
 See https://github.com/GrootSameZY/Previous-Projects.git 
 ##### Expected start date of work
